@@ -1,0 +1,155 @@
+html, body{
+	margin: 0;
+	padding: 0;
+	min-height: 100%
+	width:100%;
+}
+.box-3{
+	justify-content: center;
+	background-color:black;
+	color:white;
+	text-align: center;
+	height: 100vh;
+	width: 100vw;
+}
+.box-3 h1{
+	margin:100px 0px 100px 0px;
+	text-align: center;
+	font-size: 60px;
+}
+.cl{
+	/*text-align: center;*/
+	color: black;
+	height: 180px;
+	justify-content: center;
+}
+
+.save{
+	/*margin: 60px 0px 40px 0px;*/
+	text-align: center;
+	height: 100vh;
+	width: 100vw;
+	display: table-cell;
+	vertical-align: middle;
+	
+}
+.save h1{
+	
+    color: black;
+	font-size: 70px;
+	text-align: center;
+	vertical-align: middle;
+	
+	font-family: cursive;
+	
+}
+.save p{
+	font-weight: lighter;
+	font-size: 20px;
+	
+}
+.bussiness{
+	text-align: center;
+	height: 100vh;
+	width: 100vw;
+	display: table-cell;
+	vertical-align: middle;
+	padding-top: 12.5%;
+}
+.bussiness .ll{
+	/*position: absolute;
+	top: 50%;
+	left: 50%
+	margin-right:50%;
+	transform: translate(-50%, -50%)*/
+	text-align: center;
+	vertical-align: middle;
+}
+/*img .display{
+	display: block;
+	margin-left: auto;
+	margin-right: auto;
+}*/
+.step{
+	background-color: lightgrey;
+	text-align: center;
+	height: 100vh;
+	width: 100vw;
+	display: table-cell;
+	vertical-align: middle;
+	
+}
+.step h1{
+	/*padding: 40px 0px 40px 0px;*/
+	color: black;
+	font-size: 70px;
+	text-align: center;
+	vertical-align: middle;
+	
+	/*font-weight: bold;*/
+}
+.step button{
+	margin: 30px 0px 0px 0px;
+
+}
+#footer-col{
+	text-align: center;
+}
+.line{
+	border-top: 1px solid black;
+}
+body hr{
+	
+	border-top: 3px solid black;
+
+}
+.social{
+	height: 50vh;
+}
+
+.foot-nav a{
+	float: right;
+/*margin-top: 100px;*/
+padding-right: 25px;
+color: black;
+}
+.foot{
+	padding-top: 8.5%;
+	height: 50vh;
+	/*justify-content: right;*/
+	/*text-align: center;*/
+	
+	width: 100vw;
+/*	display: table-cell;
+	vertical-align: middle;*/
+
+}
+#footer-col a{
+	/*text-align: center;*/
+	color: black;
+	justify-content: right;
+}
+.lower-button{
+  width: 250px !important;
+  height: 75px !important;
+  background-color: black !important;
+  color: white !important;
+  font-weight: bold !important;
+}
+
+
+
+
+@media only screen and (max-width: 768px) {
+  .cl{
+  	
+  	height: 70px;
+  	text-align: center;
+  }
+  .footer-col{
+  	text-align: center;
+  }
+
+  
+}
+

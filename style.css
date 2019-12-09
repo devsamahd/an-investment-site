@@ -1,0 +1,155 @@
+html, body{
+  margin: 0px;
+  padding: 0px;
+  min-height: 100%
+  width:100%;
+}
+/*#navbar{
+  position: fixed;
+   overflow: hidden;
+}*/
+.bg{
+height: 100vh;
+width:100%;
+color: white;
+background-color: black;
+ /* text-align: center;*/
+  height: 100vh;
+  width: 100vw;
+  display: table-cell;
+  vertical-align: middle;
+
+}
+.header{
+  font-size: 70px;
+  font-family: "Helvetica nueu",Helvetica,Arial,sans-serif;
+  color: white;
+  font-weight: bold;
+
+}
+.div-1{
+  padding: 50px 0px 0px 0px;
+  text-align: left;
+  vertical-align: middle;
+  font-family: "GT America","Helvetica Neue",Helvetica,Arial,sans-serif;
+}
+.first-button{
+  margin: 30px 0px 30px 0px;
+  width: 250px !important;
+  height: 75px !important;
+  background-color: white !important;
+  color: black !important;
+  font-weight: bold !important;
+}
+.middle{
+  font-size: 25px;
+  background-color: white;
+  color: black;
+  text-align: center;
+  padding: 30px 0px 30px 0px;
+  font-family: "Helvetica nueu",Helvetica,Arial,sans-serif;
+}
+.sec{
+  height: 100vh;
+width:100%;
+color: black;
+/*background-color: chocolate;
+*/ /* text-align: center;*/
+  height: 100vh;
+  width: 100vw;
+}
+article{
+  position: relative;
+  top:40%;
+  left: 50%;
+  padding: 1rem;
+  text-align: left;
+  transform: translate(-50%, -50%);
+}
+.left-half{
+  background-color: #ff9e2c;
+  float: left;
+  width: 50%;
+  height: 100vh;
+  padding: 55px 18px 55px 18px;
+}
+.right-half{
+  background-color: white;
+  float: left;
+  width: 50%;
+  height: 100vh;
+  padding: 30px;
+}
+.bl{
+height: 100vh;
+width:100%;
+color: black;
+background-color: chocolate;
+ /* text-align: center;*/
+  height: 100vh;
+  width: 100vw;
+  display: table-cell;
+  vertical-align: middle;
+  
+}
+.div-2{
+  background-color: yellow;
+  padding: 20px 180px 20px 20px;
+   text-align: left;
+  vertical-align: middle;
+  font-family: "GT America","Helvetica Neue",Helvetica,Arial,sans-serif;
+    height: 100vh;
+
+}
+
+.myButton{
+	margin: 10px;
+}
+
+
+/*.navbar-nav>li>a{
+	margin-right: 30px  !important;
+}
+.navigation{
+  background-color: white !important;
+}*/
+
+
+.title{
+  /*text-align: center;*/
+  padding-top: 150px;
+}
+/*.col-1{
+	background-image: url("image/img2.jpg");
+}*/
+/*.jumbotron .div-2 {
+	text-align: center !important;
+	color: white !important;
+	background-color: blue !important;
+}*/
+.display-4{
+  font-size: 105px;
+}
+
+.col-md-6 h1{
+  color: black;
+  font-size:68px;
+  margin: 0px 0px 60px;
+
+}
+.col-md-6 p{
+  font-size: 20px;
+  margin: 0px 0px 16px;
+  text-align: center;
+}
+   
+@media only screen and (max-width: 768px) {
+  .locci{
+  	width: 100%;
+  	height: 200px;
+
+
+}
+
+
+}
